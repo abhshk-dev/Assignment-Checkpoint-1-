@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CUSTOM STYLING */
+
+body{
+    line-height: 1.5;
+    padding-bottom: 400px;
+}
+
+.header{
+    background-color: #07154c;
+    text-align: center;
+    padding: 20px 180px;
+    margin-bottom: 30px;
+}
+.navigator a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+a.Home-color {
+    color:#14ad3c;
+}
+a.Blog-color {
+    color:#14ad3c;
+}
+/* Home Page Styling*/
+h1{
+    font-size:36px;
+    padding: 10px;
+    text-align: center;
+}
+h3{
+    margin: 22px 0px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.hero{
+    width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.Box{
+    width: 100%;
+    height: 100%;
+    border: 20px solid #5873e2;
+    box-sizing: border-box;
+    }
+
+.Big-Box{
+    width: 220px;
+    height: 220px;
+    background-color: #90ffa9;
+    margin: 80px auto;
+    box-sizing: border-box;
+    border: 10px solid #0d1430;
+    box-shadow: 0 0 0 35px #90ffa9;
+    border-radius: 8%;
+}  
+
+.circle{
+    width: 18px;
+    height: 18px;
+    background-color:#99D8CA;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    border: 1px solid black;
+
+}
+.marker-container{
+    text-align: center;
+    margin:30px auto;
+
+}
+.color1{
+    background-color: #0d1430;
+}
+.color2{
+    background-color: #90ffa9;
+}
+.color3{
+    background-color: #5873e2;
+}
+.marker{
+    margin:0 32px;
+    display:inline-block;
+}
+
+span{
+    font-size: 16.5px;
+    font-weight: 600;
+}
+hr{
+    width: 700px;
+    border-style: dashed ;
+    border-color: gray;
+}
+
+/* Exercise One and Two*/
+
+.container{
+    width: 660px;
+    border: 2px solid gray;
+    margin: 40px auto;
+    font-size: 0;
+}
+.child{
+    width: 200px;
+    height: 120px;
+    margin:10px;
+    background-color:#dae0fa;
+    display:inline-block;
+    box-sizing: border-box;
+}
+.border-child{
+    border:2px solid black;
+}
+/* Home Page Styling over*/
