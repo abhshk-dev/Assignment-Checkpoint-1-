@@ -50,15 +50,14 @@ table {
 
 body{
     line-height: 1.5;
-    padding-bottom: 400px;
-}
+    }
 
 .header{
     background-color: #07154c;
     text-align: center;
     padding: 20px 180px;
     margin-bottom: 30px;
-}
+    }
 .navigator a{
     padding: 10px;
     text-decoration: none;
@@ -170,3 +169,58 @@ hr{
     border:2px solid black;
 }
 /* Home Page Styling over*/
+
+
+ 
+/*Blog page styling */
+
+.hero-blog{
+    width: 85%;
+    margin: 30px auto;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;    
+    
+}
+
+h4{
+    font-size: 29px;
+    font-weight: 700;
+
+}
+.container-blog{
+    width: 40%;
+    margin: 15px ;
+    display: inline-block;
+    vertical-align: top;
+    
+
+}
+.container-blog img{
+    width: 100%;
+    object-fit: cover;
+}
+.align-left{
+    text-align: left;
+}
+p{
+    font-size: 18px;
+    
+}
+.button{
+    padding: 10px 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    display: inline-block;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 40px;
+}
+
+a{
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(45, 167, 45);
+}
